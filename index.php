@@ -71,7 +71,7 @@
                 <th>Acciones</th>
             </tr>
         </thead>
-        </tbody>
+        <tbody>
          <?php foreach($select->fetchAll() as $alumno) { ?>
             <tr>
                 <td> <?php echo $alumno["carnet"] ?> </td>
@@ -85,7 +85,8 @@
                     </form>
                  </td>
             </tr>
-        <?php } ?>
-
+          <?php } ?>
+         </tbody>
+   </table>
 </body>
 </html>
